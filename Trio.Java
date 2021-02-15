@@ -87,12 +87,12 @@ public class Trio<T> {
 			//initialize arrays, sort them alphabetically or numerically, finally compare the index(s)
 			Object[] trioArray = {item1, item2, item3};
 			Object[] otherTrioArray = {otherTrio.item1, otherTrio.item2, otherTrio.item3};
-	        Arrays.sort(trioArray);
-	        Arrays.sort(otherTrioArray);
-	        if (trioArray[0].equals(otherTrioArray[0]) && trioArray[1].equals(otherTrioArray[1]) && trioArray[2].equals(otherTrioArray[2])) {
-				return equals = true; 
+			Arrays.sort(trioArray);
+			Arrays.sort(otherTrioArray);
+			if (trioArray[0].equals(otherTrioArray[0]) && trioArray[1].equals(otherTrioArray[1]) && trioArray[2].equals(otherTrioArray[2])) {
+					return equals = true; 
+				}
 			}
-		}
 		return equals;
 	}
 }	
