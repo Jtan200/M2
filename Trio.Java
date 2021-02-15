@@ -92,7 +92,7 @@ public class Trio<T> {
 			if (trioArray[0].equals(otherTrioArray[0]) && trioArray[1].equals(otherTrioArray[1]) && trioArray[2].equals(otherTrioArray[2])) {
 					return equals = true; 
 				}
-			}
+		}
 		return equals;
 	}
 }	
